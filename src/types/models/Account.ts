@@ -14,7 +14,7 @@ export class Account implements Entity {
 
     public account?: string;
 
-    public balance?: bigint;
+    public totalBalance?: bigint;
 
 
     async save(): Promise<void>{
